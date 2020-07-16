@@ -1,0 +1,439 @@
+/*
+Theme Name: Sportsday Now
+Theme URI: http://underscores.me/
+Author: S. Barakat
+Author URI: http://stevebarakat.com
+Description: Responsive Bootstrap 3 theme for Sportsday Now website.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sportsdays-now
+Tags: Sports, Football, News
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+X.0 Layout
+X.0 Header 
+X.0 Content
+X.0 Sidebar
+X.0 Footer
+X.0 Typography
+X.0 Elements
+X.0 Extras
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+X.0 Layout
+--------------------------------------------------------------*/
+
+#content figure {
+    border: 1px solid #aaa !important;
+}
+#content figure.alignleft {
+    margin-right: 1rem !important;
+}
+#content figure.alignright {
+    margin-left: 1rem !important;
+}
+.entry-content img {
+    padding: .8rem .8rem .5rem !important;
+    margin-right: 115rem !important;
+    display: block !important;
+}
+.wp-caption-text {
+    padding: 0 .8rem .5rem;
+}
+img.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+img.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignright {
+    float: right;
+}
+.alignleft {
+    float: left;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image: url('http://www.sportsdaynow.com/wp-content/uploads/2015/02/SportsdayBackground01.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-color: #1D5C8F;
+}
+#content {
+    margin: 0 auto;
+}
+.bg-white {
+    background: #fff !important;
+    display: block;
+}
+.container {
+    box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17);
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------------------------------------
+X.0 Header
+--------------------------------------------------------------*/
+
+#masthead {
+    margin: 9rem 0 0 0 !important;
+    padding: 0;
+    background: white;
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    z-index: 9999;
+    top: -100px;
+}
+.site-description {
+    text-transform: uppercase;
+    text-align: right;
+    padding: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+}
+.header-bottom {
+    position: relative;
+    top: -25px;
+    margin-left: -15px;
+    margin-bottom: 1rem;
+    display: block;
+    width: 1170px;
+    height: 54px;
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNWRkZTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(213, 221, 224, 1) 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(213, 221, 224, 1)));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(213, 221, 224, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(213, 221, 224, 1) 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(213, 221, 224, 1) 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(213, 221, 224, 1) 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d5dde0', GradientType=0);
+    /* IE6-8 */
+}
+.seclogo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    top: 2px;
+    z-index: 100;
+}
+/*--------------------------------------------------------------
+X.0 Typography
+--------------------------------------------------------------*/
+
+.article-title {
+    font-size: 1.5rem;
+    line-height: 110%;
+    clear: both;
+    margin: .8rem 0 0;
+}
+.article-title a {
+    color: #000;
+    text-transform: uppercase;
+}
+.section-title {
+    background: #E2E2E2;
+    color: #2A2A2A;
+    line-height: 36px;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2px 0 2px 15px;
+    text-transform: uppercase;
+    width: 97.7%;
+}
+.section-title a {
+    color: #000;
+    text-transform: uppercase;
+}
+.section-title h3 {
+    margin: .5em;
+}
+/*--------------------------------------------------------------
+X.0 Sidebar
+--------------------------------------------------------------*/
+
+.avatar {
+    float: left
+}
+.image-caption-format-1 {
+    margin-bottom: 0px!important;
+    padding-bottom: 0px!important;
+}
+.opening-avatar {
+    float: left;
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #E2E2E2;
+}
+.sidebar-author-name {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-weight: 1em;
+    color: #0000CC;
+    font-weight: 700;
+}
+.opening-kickoff-title {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000 !important;
+}
+.opening-kickoff-title .a {
+    color: #000 !important;
+}
+.opening-kickoff-title .a:visited {
+    color: #000 !important;
+}
+.sidebar-title {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 700;
+    background: #E2E2E2;
+    color: #2A2A2A;
+    line-height: 36px;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 2px 0 2px 15px;
+    text-transform: uppercase;
+}
+.sidebar-post {
+    margin-bottom: 1.2rem;
+}
+/*--------------------------------------------------------------
+X.0 Footer
+--------------------------------------------------------------*/
+
+#colophon {
+    background: #eee;
+    border-top: 1px solid #ccc;
+    padding: 2em 0;
+    margin: 0 -5px 0 0;
+}
+/*--------------------------------------------------------------
+X.0 Content
+--------------------------------------------------------------*/
+
+#videos {
+    border-top: 1px solid #e2e2e2;
+}
+#top10 {
+    width: 100%;
+    min-height: 115px;
+}
+#top10 img {
+    padding-right: 1em;
+}
+#top10 h3 {
+    margin-top: 0;
+}
+#top10 h3 a {
+    margin-top: -15px;
+    text-transform: uppercase;
+    color: #061C75;
+    font-family: "Droid Sans", sans-serif !important;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+#from-the-desk {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+#team-news h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+#team-news h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.section-title a {
+    font-weight: 700 !important;
+    text-decoration: none !important;
+}
+#team-news li {
+    list-style-type: none;
+    margin-left: -45px;
+}
+#team-news li a {
+    font-family: Verdana, Arial, sans-serif;
+    color: #555;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-decoration: none;
+}
+.entry-footer {
+    margin-bottom: 1rem;
+    background: #DEDEDE;
+    padding: 1rem;
+}
+/*--------------------------------------------------------------
+X.0 Elements
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+X.0 Extras
+--------------------------------------------------------------*/
+
+.advertisment {
+    padding: 2em .5em;
+}
+.advertisment-top {
+    padding: 0 .5em 3rem;
+}
+.advs-title {
+    line-height: .75em !important;
+}
+.advs-title a {
+    line-height: 1px !important;
+    text-transform: uppercase;
+    font-size: .8em !important;
+}
+.advps-excerpt-block-one p {
+    font-size: .75em;
+    line-height: 1.1em;
+}
+/*--------------------------------------------------------------
+X.0 Accessibility
+--------------------------------------------------------------*/
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.rss ul {
+    margin-left: -40px !important;
+    text-indent: 0 !important;
+}
+.rss li {
+    line-height: 1.8em;
+    height: 45px;
+    overflow: hidden;
+    margin: 0 !important;
+    list-style-type: none;
+    padding: 9px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #000;
+    background: rgb(43, 114, 170);
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxOSUiIHN0b3AtY29sb3I9IiMyYjcyYWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIzOCUiIHN0b3AtY29sb3I9IiMyYjcyYWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMjcyZjU0IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI3MmY1NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, rgba(43, 114, 170, 1) 19%, rgba(43, 114, 170, 1) 38%, rgba(39, 47, 84, 1) 100%, rgba(39, 47, 84, 1) 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(19%, rgba(43, 114, 170, 1)), color-stop(38%, rgba(43, 114, 170, 1)), color-stop(100%, rgba(39, 47, 84, 1)), color-stop(100%, rgba(39, 47, 84, 1)));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, rgba(43, 114, 170, 1) 19%, rgba(43, 114, 170, 1) 38%, rgba(39, 47, 84, 1) 100%, rgba(39, 47, 84, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, rgba(43, 114, 170, 1) 19%, rgba(43, 114, 170, 1) 38%, rgba(39, 47, 84, 1) 100%, rgba(39, 47, 84, 1) 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, rgba(43, 114, 170, 1) 19%, rgba(43, 114, 170, 1) 38%, rgba(39, 47, 84, 1) 100%, rgba(39, 47, 84, 1) 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, rgba(43, 114, 170, 1) 19%, rgba(43, 114, 170, 1) 38%, rgba(39, 47, 84, 1) 100%, rgba(39, 47, 84, 1) 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2b72aa', endColorstr='#272f54', GradientType=0);
+    /* IE6-8 */
+}
+.rss li:hover {
+    background: rgb(29, 78, 115);
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxOSUiIHN0b3AtY29sb3I9IiMxZDRlNzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIzOCUiIHN0b3AtY29sb3I9IiMxZDRlNzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMWIyMDM5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFiMjAzOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, rgba(29, 78, 115, 1) 19%, rgba(29, 78, 115, 1) 38%, rgba(27, 32, 57, 1) 100%, rgba(27, 32, 57, 1) 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(19%, rgba(29, 78, 115, 1)), color-stop(38%, rgba(29, 78, 115, 1)), color-stop(100%, rgba(27, 32, 57, 1)), color-stop(100%, rgba(27, 32, 57, 1)));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, rgba(29, 78, 115, 1) 19%, rgba(29, 78, 115, 1) 38%, rgba(27, 32, 57, 1) 100%, rgba(27, 32, 57, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, rgba(29, 78, 115, 1) 19%, rgba(29, 78, 115, 1) 38%, rgba(27, 32, 57, 1) 100%, rgba(27, 32, 57, 1) 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, rgba(29, 78, 115, 1) 19%, rgba(29, 78, 115, 1) 38%, rgba(27, 32, 57, 1) 100%, rgba(27, 32, 57, 1) 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, rgba(29, 78, 115, 1) 19%, rgba(29, 78, 115, 1) 38%, rgba(27, 32, 57, 1) 100%, rgba(27, 32, 57, 1) 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1d4e73', endColorstr='#1b2039', GradientType=0);
+    /* IE6-8 */
+}
+.rss li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.margin-fix {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.link {
+    color: #000;
+}
+.margin-bottom {
+    margin-bottom: 1rem;
+}
